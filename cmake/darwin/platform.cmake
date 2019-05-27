@@ -1,0 +1,10 @@
+message(STATUS "Darwin platform")
+
+set(CMAKE_Swift_LANGUAGE_VERSION 4.2)
+
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+
+set(PLATFORM_DEFINES
+    VIV_API=)
+
+set(WASM_DEMO_SYSTEM_INFO posix)
