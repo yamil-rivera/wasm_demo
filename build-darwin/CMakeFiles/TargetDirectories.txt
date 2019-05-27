@@ -1,0 +1,6 @@
+/Users/yamil.rivera/Repos/wasm_demo/build-darwin/CMakeFiles/ALL_BUILD.dir
+/Users/yamil.rivera/Repos/wasm_demo/build-darwin/CMakeFiles/ZERO_CHECK.dir
+/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/externals/boost_1_68_0/CMakeFiles/boost.dir
+/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils/CMakeFiles/vividas_drm_utils.dir
+/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils/CMakeFiles/ALL_BUILD.dir
+/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils/CMakeFiles/ZERO_CHECK.dir

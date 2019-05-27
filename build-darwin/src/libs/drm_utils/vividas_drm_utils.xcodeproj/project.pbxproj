@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		11DD86304FB640DBA44B9509 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F16DCAFF06DB4105BE9AC443 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				60462FDD70714628A220418F /* CMake Rules */,
+			);
+			dependencies = (
+				A5AA34D812FD45E6917C259A /* PBXTargetDependency */,
+				C60B05B27DE94AD098BF0D21 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D51530FBC2894A889D30182C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 574525BEFF2242B396EBA447 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				CB50BCE31229471E9EB88C13 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3572F1A72AEB408882A646F1 /* /Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8CE8149123654CBE8DD66C12 /* /Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/CMakeLists.txt */; };
+		B4398155E16640CCBB5277F4 /* /Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/include/drm_utils.h */ = {isa = PBXBuildFile; fileRef = CC22E225994744AFBBEB9AF1 /* /Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/include/drm_utils.h */; };
+		ED52A83DE622453CA3FCF32A /* /Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/src/crypto_utils.cpp */ = {isa = PBXBuildFile; fileRef = 760750F0AA574A46B8F22F33 /* /Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/src/crypto_utils.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		58639C825343406A8676C44F /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		5CC7109290274D5EAE8F0FE0 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		5FA5D1BFEF104E6094126B1B /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F772D3C00D414896B81D6E42 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		4CCD6316B3234960A89CF31F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C83478B43BDC4D4F856424EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D51530FBC2894A889D30182C;
+			remoteInfo = ZERO_CHECK;
+		};
+		675C3D8D1A1C4B24B190DA70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C83478B43BDC4D4F856424EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D80973B0C42494396FD7AA5;
+			remoteInfo = vividas_drm_utils;
+		};
+		8A4E1DE8279541B59A1F8CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C83478B43BDC4D4F856424EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D51530FBC2894A889D30182C;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3484E64001784CA29ED1F54E /* vividas_drm_utils */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libvividas_drm_utils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		760750F0AA574A46B8F22F33 /* /Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/src/crypto_utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = crypto_utils.cpp; path = src/crypto_utils.cpp; sourceTree = SOURCE_ROOT; };
+		8CE8149123654CBE8DD66C12 /* /Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9D3A46C523DD473CAAEF4B41 /* /Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CC22E225994744AFBBEB9AF1 /* /Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/include/drm_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = drm_utils.h; path = include/drm_utils.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4214E8585696469FBF12D014 = {
+			isa = PBXGroup;
+			children = (
+				43BCF5D1FDB94C1AAB74B763 /* vividas_drm_utils */,
+				E535E8136F444524A3D4E834 /* ALL_BUILD */,
+				CC33F9F96D7B4ECC8CE8E45B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43BCF5D1FDB94C1AAB74B763 /* vividas_drm_utils */ = {
+			isa = PBXGroup;
+			children = (
+				8967C6FC1A3C4C9DABD47875 /* Header Files */,
+				49249E8D7F7846EA8737C883 /* Source Files */,
+				8CE8149123654CBE8DD66C12 /* /Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/CMakeLists.txt */,
+			);
+			name = vividas_drm_utils;
+			sourceTree = "<group>";
+		};
+		49249E8D7F7846EA8737C883 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				760750F0AA574A46B8F22F33 /* /Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/src/crypto_utils.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8967C6FC1A3C4C9DABD47875 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC22E225994744AFBBEB9AF1 /* /Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/include/drm_utils.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		9D28965411BF4A3FB0236288 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CC33F9F96D7B4ECC8CE8E45B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3484E64001784CA29ED1F54E /* vividas_drm_utils */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E535E8136F444524A3D4E834 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9D28965411BF4A3FB0236288 /* CMake Rules */,
+				9D3A46C523DD473CAAEF4B41 /* /Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D80973B0C42494396FD7AA5 /* vividas_drm_utils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95405E4E751C46ACAE4B1794 /* Build configuration list for PBXNativeTarget "vividas_drm_utils" */;
+			buildPhases = (
+				EF381588DD9C40FFBF1E1AC3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66CC3C0D487C4495B38D5CB6 /* PBXTargetDependency */,
+			);
+			name = vividas_drm_utils;
+			productName = vividas_drm_utils;
+			productReference = 3484E64001784CA29ED1F54E /* vividas_drm_utils */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C83478B43BDC4D4F856424EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = D1849953C2B549958092BB18 /* Build configuration list for PBXProject "vividas_drm_utils" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				F772D3C00D414896B81D6E42 /* Debug */,
+				5FA5D1BFEF104E6094126B1B /* Release */,
+				5CC7109290274D5EAE8F0FE0 /* MinSizeRel */,
+				58639C825343406A8676C44F /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 4214E8585696469FBF12D014;
+			projectDirPath = ../../../../src/libs/drm_utils;
+			projectRoot = "";
+			targets = (
+				11DD86304FB640DBA44B9509 /* ALL_BUILD */,
+				D51530FBC2894A889D30182C /* ZERO_CHECK */,
+				9D80973B0C42494396FD7AA5 /* vividas_drm_utils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60462FDD70714628A220418F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils -f /Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		C03F37A21B7540C1BF7E7D55 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C3A330851D824F5A88CF6F4A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CB50BCE31229471E9EB88C13 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils -f /Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF381588DD9C40FFBF1E1AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED52A83DE622453CA3FCF32A /* /Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/src/crypto_utils.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66CC3C0D487C4495B38D5CB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D51530FBC2894A889D30182C /* ZERO_CHECK */;
+			targetProxy = 8A4E1DE8279541B59A1F8CF6 /* PBXContainerItemProxy */;
+		};
+		A5AA34D812FD45E6917C259A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D80973B0C42494396FD7AA5 /* vividas_drm_utils */;
+			targetProxy = 675C3D8D1A1C4B24B190DA70 /* PBXContainerItemProxy */;
+		};
+		C60B05B27DE94AD098BF0D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D51530FBC2894A889D30182C /* ZERO_CHECK */;
+			targetProxy = 4CCD6316B3234960A89CF31F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		105C98A27ACB4FF09289ACE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'VIV_API='",BOOST_ALL_NO_LIB,BOOST_CONTEXT_EXPORT,BOOST_ASIO_HAS_STD_STRING_VIEW);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yamil.rivera/Repos/wasm_demo/src/externals/boost_1_68_0,"/Users/yamil.rivera/Repos/wasm_demo/src/externals/spdlog-/include","/Users/yamil.rivera/Repos/wasm_demo/src/externals/openssl-1.1.0f-darwin/include",/Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/include,/Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/src,/Users/yamil.rivera/Repos/wasm_demo/src/externals/boost_1_68_0/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vividas_drm_utils;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		24FA13E3E35C4876B81B512F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'VIV_API='",BOOST_ALL_NO_LIB,BOOST_CONTEXT_EXPORT,BOOST_ASIO_HAS_STD_STRING_VIEW);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yamil.rivera/Repos/wasm_demo/src/externals/boost_1_68_0,"/Users/yamil.rivera/Repos/wasm_demo/src/externals/spdlog-/include","/Users/yamil.rivera/Repos/wasm_demo/src/externals/openssl-1.1.0f-darwin/include",/Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/include,/Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/src,/Users/yamil.rivera/Repos/wasm_demo/src/externals/boost_1_68_0/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vividas_drm_utils;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2EA7A9547F464527ACE244C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils/build";
+			};
+			name = Release;
+		};
+		320C9577E5C64528B7ED4772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils/build";
+			};
+			name = Debug;
+		};
+		3C18447FA12F412B99015280 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		59A584BE6ECC49CB88672A5D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5C75A87DE2CC4F79B1D4A0B3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		649062FB02364CC78CD5F9B2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'VIV_API='",BOOST_ALL_NO_LIB,BOOST_CONTEXT_EXPORT,BOOST_ASIO_HAS_STD_STRING_VIEW);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yamil.rivera/Repos/wasm_demo/src/externals/boost_1_68_0,"/Users/yamil.rivera/Repos/wasm_demo/src/externals/spdlog-/include","/Users/yamil.rivera/Repos/wasm_demo/src/externals/openssl-1.1.0f-darwin/include",/Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/include,/Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/src,/Users/yamil.rivera/Repos/wasm_demo/src/externals/boost_1_68_0/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vividas_drm_utils;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		86F0FF95B4B9461498325D0A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9315FE430A37422EB419CC62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		96E3FB4E869D44D7A25FF3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BE177F50867F473DB8D7DA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CDF14B9A485140ADAE05E3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		DBE50E10AA3C40BB8F765B54 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'VIV_API='",BOOST_ALL_NO_LIB,BOOST_CONTEXT_EXPORT,BOOST_ASIO_HAS_STD_STRING_VIEW);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yamil.rivera/Repos/wasm_demo/src/externals/boost_1_68_0,"/Users/yamil.rivera/Repos/wasm_demo/src/externals/spdlog-/include","/Users/yamil.rivera/Repos/wasm_demo/src/externals/openssl-1.1.0f-darwin/include",/Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/include,/Users/yamil.rivera/Repos/wasm_demo/src/libs/drm_utils/src,/Users/yamil.rivera/Repos/wasm_demo/src/externals/boost_1_68_0/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vividas_drm_utils;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E3C3F1E632D341AF959A5915 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils/build";
+			};
+			name = MinSizeRel;
+		};
+		EA00F0699BF84048B909D4AD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/yamil.rivera/Repos/wasm_demo/build-darwin/src/libs/drm_utils/build";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		574525BEFF2242B396EBA447 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF14B9A485140ADAE05E3DF /* Debug */,
+				9315FE430A37422EB419CC62 /* Release */,
+				86F0FF95B4B9461498325D0A /* MinSizeRel */,
+				59A584BE6ECC49CB88672A5D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		95405E4E751C46ACAE4B1794 /* Build configuration list for PBXNativeTarget "vividas_drm_utils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105C98A27ACB4FF09289ACE2 /* Debug */,
+				24FA13E3E35C4876B81B512F /* Release */,
+				649062FB02364CC78CD5F9B2 /* MinSizeRel */,
+				DBE50E10AA3C40BB8F765B54 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1849953C2B549958092BB18 /* Build configuration list for PBXProject "vividas_drm_utils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320C9577E5C64528B7ED4772 /* Debug */,
+				2EA7A9547F464527ACE244C9 /* Release */,
+				E3C3F1E632D341AF959A5915 /* MinSizeRel */,
+				EA00F0699BF84048B909D4AD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F16DCAFF06DB4105BE9AC443 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE177F50867F473DB8D7DA86 /* Debug */,
+				96E3FB4E869D44D7A25FF3F7 /* Release */,
+				3C18447FA12F412B99015280 /* MinSizeRel */,
+				5C75A87DE2CC4F79B1D4A0B3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C83478B43BDC4D4F856424EC /* Project object */;
+}
